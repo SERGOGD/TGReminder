@@ -18,7 +18,7 @@ class Program
 
     static async Task Main(string[] args)
     {
-        botClient = new TelegramBotClient("557207430:AAHzpkxqxcYPlzBBCJi7QVYjrOwpRi3umi8");
+        botClient = new TelegramBotClient("Bot_Token");
 
         var me = await botClient.GetMeAsync();
         Console.WriteLine($"Hello, I am user {me.Id} and my name is {me.FirstName}.");
